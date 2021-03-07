@@ -1,0 +1,23 @@
+Q1. 
+
+a. When the user presses the Back button, the current activity is popped from the top of the stack (the activity is destroyed) and the previous activity resumes (the previous state of its UI is restored).
+
+b. An activity is a visual component that you see on a screen, with some associated logic to manage life cycle and navigation. An application will generally consist of several activities. When you move from screen to screen, generally you are changing Activities, replacing what is on the screen with the new contents and controller.
+
+A task is a collection of activities that users interact with when performing a
+certain job. A task can be moved to the background when a new task is invoked or the current task is out of focus. In the background, all activities in the task are stopped, but the user can reactiviate that task when it is needed.
+
+Q2.
+
+a. Super() is a pointer to the parent class in Java language. Calling super in a lifecycle callback will point to the AppCompatActivity. For example, if a function name is attached to the super, it will call the corresponding method in the parent activity. (calling onStart method in MainActivity like super.onStart(); will execute the default onStart method).
+
+b. getSharedPreferences() - Use this if you need multiple preferences files identified by name, which you specify with the first parameter.
+
+getPreferences() - Use this if you need only one preferences file for your Activity. Because this will be the only preferences file for your Activity, you don't supply a name.
+
+getPreferences will return values of a certain activity. getSharedPreferences will return values that is shared in between multiple activities and services
+
+c. public abstract SharedPreferences.Editor putString (String key, String value).
+
+parameter 1 is String and it represents the name of the preference to modify.
+parameter 2 is also a string and it represents the new value for the preference.

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">week 2 lab</string>
+    <string name="add_item">Add Item</string>
+    <string name="clear_all">Clear All</string>
+    <string name="drawer_open">Drawer open</string>
+    <string name="drawer_close">Drawer close</string>
+</resources>

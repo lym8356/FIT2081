@@ -1,0 +1,60 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.monash.fit2081.Week3"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->H:\FIT2081\SimpleActivityLifecycleDemoStudent\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->H:\FIT2081\SimpleActivityLifecycleDemoStudent\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->H:\FIT2081\SimpleActivityLifecycleDemoStudent\app\src\main\AndroidManifest.xml:6:5-28:19
+12        android:debuggable="true"
+13        android:icon="@drawable/ic_launcher"
+13-->H:\FIT2081\SimpleActivityLifecycleDemoStudent\app\src\main\AndroidManifest.xml:7:18-54
+14        android:label="@string/app_name"
+14-->H:\FIT2081\SimpleActivityLifecycleDemoStudent\app\src\main\AndroidManifest.xml:6:18-50
+15        android:testOnly="true"
+16        android:theme="@android:style/Theme.Material" >
+16-->H:\FIT2081\SimpleActivityLifecycleDemoStudent\app\src\main\AndroidManifest.xml:8:18-63
+17        <activity
+17-->H:\FIT2081\SimpleActivityLifecycleDemoStudent\app\src\main\AndroidManifest.xml:9:9-16:20
+18            android:name="edu.monash.fit2081.Testing.Lifecycles"
+18-->H:\FIT2081\SimpleActivityLifecycleDemoStudent\app\src\main\AndroidManifest.xml:9:19-45
+19            android:label="@string/app_name"
+19-->H:\FIT2081\SimpleActivityLifecycleDemoStudent\app\src\main\AndroidManifest.xml:10:19-51
+20            android:windowSoftInputMode="stateHidden" >
+20-->H:\FIT2081\SimpleActivityLifecycleDemoStudent\app\src\main\AndroidManifest.xml:11:19-60
+21            <intent-filter>
+21-->H:\FIT2081\SimpleActivityLifecycleDemoStudent\app\src\main\AndroidManifest.xml:12:13-15:29
+22                <action android:name="android.intent.action.MAIN" />
+22-->H:\FIT2081\SimpleActivityLifecycleDemoStudent\app\src\main\AndroidManifest.xml:13:17-68
+22-->H:\FIT2081\SimpleActivityLifecycleDemoStudent\app\src\main\AndroidManifest.xml:13:25-66
+23
+24                <category android:name="android.intent.category.LAUNCHER" />
+24-->H:\FIT2081\SimpleActivityLifecycleDemoStudent\app\src\main\AndroidManifest.xml:14:17-76
+24-->H:\FIT2081\SimpleActivityLifecycleDemoStudent\app\src\main\AndroidManifest.xml:14:27-74
+25            </intent-filter>
+26        </activity>
+27        <activity
+27-->H:\FIT2081\SimpleActivityLifecycleDemoStudent\app\src\main\AndroidManifest.xml:18:9-21:20
+28            android:name="edu.monash.fit2081.Testing.TestFullActivity"
+28-->H:\FIT2081\SimpleActivityLifecycleDemoStudent\app\src\main\AndroidManifest.xml:18:19-51
+29            android:label="Yet Another Activity" >
+29-->H:\FIT2081\SimpleActivityLifecycleDemoStudent\app\src\main\AndroidManifest.xml:19:19-55
+30        </activity>
+31        <activity
+31-->H:\FIT2081\SimpleActivityLifecycleDemoStudent\app\src\main\AndroidManifest.xml:23:9-27:20
+32            android:name="edu.monash.fit2081.Testing.TestPartialActivity"
+32-->H:\FIT2081\SimpleActivityLifecycleDemoStudent\app\src\main\AndroidManifest.xml:23:19-54
+33            android:label="Another Activity"
+33-->H:\FIT2081\SimpleActivityLifecycleDemoStudent\app\src\main\AndroidManifest.xml:24:19-51
+34            android:theme="@android:style/Theme.Dialog" >
+34-->H:\FIT2081\SimpleActivityLifecycleDemoStudent\app\src\main\AndroidManifest.xml:25:19-62
+35        </activity>
+36    </application>
+37
+38</manifest>

@@ -1,0 +1,11 @@
+Implemented feature:
+
+Login screen that accepts 3 different user roles.
+
+To login, use these username and password combinations:
+
+1. username: user, password: user
+2. username: staff, password: staff
+3. username: admin, password: admin
+
+To exit the application, click on the CANCEL button.

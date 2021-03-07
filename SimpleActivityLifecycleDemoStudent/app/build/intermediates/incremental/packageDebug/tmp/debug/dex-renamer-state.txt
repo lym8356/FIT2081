@@ -1,0 +1,4 @@
+#Sun Apr 05 23:33:37 AEST 2020
+base.0=H\:\\FIT2081\\SimpleActivityLifecycleDemoStudent\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

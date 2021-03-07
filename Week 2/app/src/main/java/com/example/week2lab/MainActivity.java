@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     public void onclickaddBtn(View view){
         String displayText = nameText.getText().toString();
         Toast.makeText(this,"New item (" + displayText +") has been added", Toast.LENGTH_LONG).show();
-        nameText.setText("");
+//        nameText.setText("");
     }
 
     public void onclickclearBtn(View view){
